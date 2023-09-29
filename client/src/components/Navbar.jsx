@@ -17,7 +17,7 @@ function Navbar() {
     
     useEffect(() => {
         const handleScroll = () => {
-          if (window.scrollY > 20) {
+          if (window.scrollY > 0  ) {
             // Set the 'scrolled' state to true when scrolling down
             setScrolled(true);
           } else {

@@ -95,7 +95,7 @@ body{
         width: 100%;
         display: flex;
         flex-direction: column-reverse; 
-        border: 2px solid fuchsia;
+        
 
     }
     .image {
@@ -112,7 +112,7 @@ body{
         width: 100%;
         display: flex;
         flex-direction: column-reverse; 
-        border: 1px solid pink;
+      
         padding-left: 10px;
 
     }
