@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600;700&family=Manrope:wght@400;700&family=Poppins&family=Roboto+Serif:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@300&display=swap');
+body{
+     font-family: 'Manrope', sans-serif;
+     margin: 0;
+     padding: 0;
+   
+}
+.container{
+     width: 100%;
+    
+     display: flex;
+     align-items: center;
+     padding-left: 20px;
+    
+
+}
+.content {
+    width: 60%;
+    height: 100%;
+   
+}
+.secondary{
+    color:#3c3c3c
+     
+ }
+ .primary{
+     color: #0d43a0;
+     font-size: 45px;
+     font-weight: 1200;
+     margin-top: -20px;
+    
+ }
+ .intro{
+    color:#3c3c3c; 
+    font-size: 16px;
+    font-weight:700;
+    margin-top:10px;
+ }
+.box{
+    margin: 10px auto;
+    width: 80%;
+    height: 150px; 
+     display: flex;
+    margin-top: 30px;
+ }
+  .item{
+   
+     background-color: #4883e9;
+     width:33%; 
+     border: 1px solid white;
+     margin: 1px;
+
+  }
+  .upper { 
+     color:#fff; 
+     font-weight: 700;
+     text-align: center;
+  }
+  .lower{
+    color:#fff; 
+    font-weight: 500;
+    text-align: center;
+    margin-top:-15px;
+     
+  }
+
+.image{
+     width: 40%;
+     height: 100%;
+    
+     display: flex; 
+     justify-content: center;
+     align-items: center;
+}
+
+.imageContainer{
+    width: 70%; 
+    height: 70%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+}
+
+@media (max-width:430px){
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse; 
+        border: 2px solid fuchsia;
+
+    }
+    .image {
+         width: 100%;
+    }
+    .content{
+         width: 100%;
+    }
+    
+    
+}
+@media  (min-width: 430px) and (max-width: 720px){
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse; 
+        border: 1px solid pink;
+        padding-left: 10px;
+
+    }
+    .primary{
+         text-align: center;
+    }
+    .secondary{
+         text-align: center;
+    }
+    .image {
+         width: 80%;
+    }
+    .content{
+         width: 100%;
+    }
+     
+}

@@ -1,0 +1,92 @@
+/* Container for the entire section */
+.container{
+    width: 100%;
+    
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin: 30px;
+   
+  
+  }
+  .problem-stats {
+    width: 70%;
+      height:250px; 
+      display: flex;
+  
+      background-color: #f1f1fa;
+       /* Increased padding for more spacing */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    }
+    .heading{
+      font-size: 34px;
+      font-weight:900; 
+      color:#0d43a0; 
+      margin-left:80px; 
+    
+   }
+    /* Styling for the 'Total Problems Solved' part */
+    .total-solved {
+      width: 80%;
+      text-align: center;
+      flex: 1; /* Distribute remaining space evenly */
+    }
+    
+    .count {
+      font-size: 48px; /* Larger font size */
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .label {
+      font-size: 18px; /* Slightly larger font size */
+      color: #777;
+    }
+    
+    /* Styling for the difficulty stats */
+    .difficulty-stats {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; /* Align difficulty stats to the right */
+    }
+    
+    .difficulty {
+      margin-top: 15px; /* Increased spacing between difficulty levels */
+      text-align: right; /* Right-align difficulty levels */
+    }
+    
+    /* Styles for different difficulty levels */
+    .difficulty .count {
+      font-size: 28px; /* Adjust font size */
+    }
+    
+    /* Style for 'Easy' difficulty */
+    .difficulty .label:nth-child(2) {
+      color: #4CAF50;
+    }
+    
+    /* Style for 'Medium' difficulty */
+    .difficulty .label:nth-child(4) {
+      color: #FFC107;
+    }
+    
+    /* Style for 'Hard' difficulty */
+    .difficulty .label:nth-child(6) {
+      color: #F44336;
+    }
+     @media (max-width:850px){
+         .container {
+             width: 100%;
+         }
+         .heading {
+             width: 100%;
+         }
+         .problem-stats {
+             width: 90%;
+             height: 450px;
+         }
+     }
+    
